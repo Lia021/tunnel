@@ -1,2 +1,32 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<html>
+  <head>
+    
+    <meta property="og:title" content="Lia tunnels">
+    <meta property="og:description" content="Love this space!">
+    <meta property="og:image" content="https://logo.clearbit.com/sidequestvr.com">
+     <meta property="og:title" content="Importing GLTF/GLB files">
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      
+       <a-assets>
+         
+    <a-asset-item id="test" src="https://cdn.glitch.global/74504a28-6eb2-447a-a74b-d62489ae2875/tunnel%203.glb?v=1675191751877"></a-asset-item>
+  
+      </a-assets>
+      
+       <!-- test -->
+  
+      <a-entity gltf-model="#test" position="0 -1 6" scale="2 2 2" sq-nonconvexcollider="recursive: true" ></a-entity>
+      
+    
+  
+      
+  <!--portal-->
+      
+  <a-link href="https://sq-explore.glitch.me"position="-6 0 0"></a-link>
+      
+    </a-scene>
+  </body>
+</html>
